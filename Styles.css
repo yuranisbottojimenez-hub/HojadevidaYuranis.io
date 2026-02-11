@@ -100,7 +100,7 @@ h3::after { content: ""; height: 2px; flex-grow: 1; background: linear-gradient(
 .experience-item, .education-item, .project-item {
     margin-bottom: 25px;
     padding-left: 20px;
-    border-left: 2px solid #f1f2f6;
+    border-left: 2px solid #6c5ce7;
 }
 
 h4 { font-size: 1.05rem; color: var(--primary); margin-bottom: 5px; }
@@ -108,3 +108,14 @@ p { font-size: 0.95rem; color: var(--text-light); line-height: 1.6; }
 
 .skills-grid ul { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; }
 .skills-grid li { background: var(--accent); color: white; padding: 6px 16px; border-radius: 50px; font-size: 0.85rem; }
+
+
+.footer-copyright {
+    grid-column: 1 / span 2; /* Esto hace que ocupe tanto el espacio de la sidebar como del contenido */
+    text-align: center;
+    padding: 15px;
+    background-color: #f9f9f9; 
+    color: #95a5a6;
+    font-size: 0.75rem;
+    border-top: 1px solid #eee;
+}
